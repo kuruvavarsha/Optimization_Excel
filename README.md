@@ -4,7 +4,9 @@ Each shift lasts a period of 7 hours for a full-time employee with a break of 1 
 Considering the way shifts have been designed:
 A full-time employee can only start his/her/their shift at 9 am / 10 am / 11 am 
 Whereas there are 7 different shifts where a part time employee can start working
-i = {1,2,3,4,5,6,7} 		: 	i represents the number of shifts
+i = {1,2,3,4,5,6,7} 		: 	
+
+i represents the number of shifts
 
 Parameters:
 Cp: Cost of wages per employee per hour for a part time employee
@@ -18,8 +20,8 @@ Xi = Number of full-time employees starting to work in each shift; i = number of
 Yj = Number of part time employees starting to work in each shift; j = number of shifts {1, 2…7}
 
 Objective Function:
-Minimize ∑_(i=1)^7▒(C_p 〖H_p Y〗_j+C_f H_f X_i ) 
-
+![image](https://github.com/kuruvavarsha/Optimization_Excel/assets/143559502/534abf7e-2499-4ede-b0a1-382763ed7704)
+ 
 
 Table 1: Minimum and Maximum required employees for each shift
 Open Hours	Minimum Employees Required	Maximum Employees Required
