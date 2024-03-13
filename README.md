@@ -24,32 +24,13 @@ Objective Function:
  
 
 Table 1: Minimum and Maximum required employees for each shift
-Open Hours	Minimum Employees Required	Maximum Employees Required
-9AM	2	4
-10AM	2	4
-11AM	3	5
-12PM	4	6
-1PM	3	5
-2PM	2	4
-3PM	2	3
-4PM	3	5
-5PM	4	6
-6PM	2	4
+![image](https://github.com/kuruvavarsha/Optimization_Excel/assets/143559502/6d7776ab-100d-475e-82f0-977c09d7eea1)
+
 
 
 Table 2: Staff schedules per shift
-	Full Time Shifts	Part Time Shifts
-Open Hours	9AM-5PM	10AM-6PM	11AM-7PM	9AM-1PM	10AM-2PM	11AM-3PM	12PM-4PM	1PM-5PM	2PM-6PM	3PM-7PM
-9AM	1	0	0	1	0	0	0	0	0	0
-10AM	1	1	0	1	1	0	0	0	0	0
-11AM	1	1	1	1	1	1	0	0	0	0
-12PM	1	1	1	1	1	1	1	0	0	0
-1PM	0	1	1	0	1	1	1	1	0	0
-2PM	1	0	1	0	0	1	1	1	1	0
-3PM	1	1	0	0	0	0	1	1	1	1
-4PM	1	1	1	0	0	0	0	1	1	1
-5PM	0	1	1	0	0	0	0	0	1	1
-6PM	0	0	1	0	0	0	0	0	0	1
+	
+![image](https://github.com/kuruvavarsha/Optimization_Excel/assets/143559502/20e5f64f-4a4f-48ff-a650-39ecf8296a42)
 
 Constraints:
 1. The number of employees assigned to each shift must be more than the minimum required employees for that shift
@@ -98,4 +79,5 @@ Computational Results:
 In this section, we employed multiple simulations to determine the optimal solution for staff scheduling at Starbucks. 
 By manipulating the constraints and the objective function, we conducted a sensitivity analysis to identify changes in the minimum cost incurred by the outlet.
 
- 
+ ![image](https://github.com/kuruvavarsha/Optimization_Excel/assets/143559502/76240c04-0801-4e47-a13e-52db25b959ab)
+
