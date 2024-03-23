@@ -1,3 +1,4 @@
+#Schedule Optimization using Excel 
 First, we define the shifts as below:
 Each shift lasts a period of 4 hours for a part time employee.
 Each shift lasts a period of 7 hours for a full-time employee with a break of 1 hour in between.
